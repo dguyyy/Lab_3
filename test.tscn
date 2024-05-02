@@ -1,0 +1,565 @@
+[gd_scene load_steps=17 format=3 uid="uid://cbhbim0qc6ouh"]
+
+[ext_resource type="Script" path="res://CSGSphere3D.gd" id="1_ryxyv"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_cm7lh"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fyrf5"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3xqkf"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_johwk"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3khxx"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6idib"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ws3kd"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7xj7h"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wpwb5"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hl3os"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_04glx"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3lrq3"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_an4fa"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_cm8pr"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_p0vvs"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="dudes" type="Node3D" parent="."]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+
+[node name="CSGSphere3D" type="CSGSphere3D" parent="dudes"]
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_cm7lh")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D2" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 0)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_fyrf5")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D3" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 2, 4.1633e-12)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_3xqkf")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D4" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 4.1633e-12, 4.1633e-12)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_johwk")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D5" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 2, 4.1633e-12)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_3khxx")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D6" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.1633e-12, 2, 4.1633e-12)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_6idib")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D7" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 2, 4.1633e-12)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_ws3kd")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D8" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, -2, 4.1633e-12)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_7xj7h")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D9" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, -2, 4.1633e-12)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_wpwb5")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D10" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, -2, 4.1633e-12)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_hl3os")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D11" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 4.1633e-12, 4.1633e-12)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_04glx")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D12" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.1633e-12, -2, 4.1633e-12)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_3lrq3")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D13" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, -2, 4.1633e-12)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_an4fa")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D14" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 4.1633e-12, 4.1633e-12)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_cm8pr")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D15" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 2, 4.1633e-12)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_p0vvs")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D16" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_cm7lh")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D17" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -2)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_fyrf5")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D18" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 2, -2)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_3xqkf")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D19" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 4.1633e-12, -2)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_johwk")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D20" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 2, -2)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_3khxx")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D21" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.1633e-12, 2, -2)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_6idib")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D22" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 2, -2)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_ws3kd")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D23" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, -2, -2)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_7xj7h")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D24" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, -2, -2)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_wpwb5")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D25" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, -2, -2)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_hl3os")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D26" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 4.1633e-12, -2)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_04glx")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D27" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.1633e-12, -2, -2)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_3lrq3")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D28" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, -2, -2)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_an4fa")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D29" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 4.1633e-12, -2)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_cm8pr")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D30" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 2, -2)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_p0vvs")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D31" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -4)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_cm7lh")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D32" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -4)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_fyrf5")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D33" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 2, -4)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_3xqkf")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D34" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 4.1633e-12, -4)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_johwk")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D35" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 2, -4)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_3khxx")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D36" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.1633e-12, 2, -4)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_6idib")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D37" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 2, -4)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_ws3kd")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D38" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, -2, -4)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_7xj7h")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D39" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, -2, -4)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_wpwb5")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D40" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, -2, -4)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_hl3os")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D41" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 4.1633e-12, -4)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_04glx")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D42" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.1633e-12, -2, -4)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_3lrq3")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D43" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, -2, -4)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_an4fa")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D44" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 4.1633e-12, -4)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_cm8pr")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D45" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 2, -4)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_p0vvs")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D46" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -6)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_cm7lh")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D47" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -6)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_fyrf5")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D48" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 2, -6)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_3xqkf")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D49" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 4.1633e-12, -6)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_johwk")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D50" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 2, -6)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_3khxx")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D51" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.1633e-12, 2, -6)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_6idib")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D52" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 2, -6)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_ws3kd")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D53" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, -2, -6)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_7xj7h")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D54" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, -2, -6)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_wpwb5")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D55" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, -2, -6)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_hl3os")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D56" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 4.1633e-12, -6)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_04glx")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D57" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.1633e-12, -2, -6)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_3lrq3")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D58" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, -2, -6)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_an4fa")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D59" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 4.1633e-12, -6)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_cm8pr")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D60" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 2, -6)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_p0vvs")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D61" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -8)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_cm7lh")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D62" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -8)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_fyrf5")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D63" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 2, -8)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_3xqkf")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D64" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 4.1633e-12, -8)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_johwk")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D65" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 2, -8)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_3khxx")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D66" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.1633e-12, 2, -8)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_6idib")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D67" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 2, -8)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_ws3kd")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D68" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, -2, -8)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_7xj7h")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D69" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, -2, -8)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_wpwb5")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D70" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, -2, -8)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_hl3os")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D71" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 4.1633e-12, -8)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_04glx")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D72" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.1633e-12, -2, -8)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_3lrq3")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D73" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, -2, -8)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_an4fa")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D74" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 4.1633e-12, -8)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_cm8pr")
+script = ExtResource("1_ryxyv")
+
+[node name="CSGSphere3D75" type="CSGSphere3D" parent="dudes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 2, -8)
+radial_segments = 22
+rings = 20
+material = SubResource("StandardMaterial3D_p0vvs")
+script = ExtResource("1_ryxyv")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4.37316)

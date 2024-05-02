@@ -1,0 +1,18 @@
+[gd_scene load_steps=2 format=3 uid="uid://cxus1vebl70fo"]
+
+[ext_resource type="Script" path="res://CSGCylinder3D.gd" id="1_3dv3k"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 4.96052e-16, -1.73102e-23, -4.29594e-16, 0.866025, 0.5, 2.48026e-16, -0.5, 0.866025, 0, 3, 4.49619)
+shadow_enabled = true
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2.10952)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="."]
+transform = Transform3D(6.99853e-08, 1, 0, -0.707107, 4.51629e-08, 0.707107, 0.707107, -4.51629e-08, 0.707107, 0, 0, 0)
+height = 0.1
+sides = 3
+script = ExtResource("1_3dv3k")

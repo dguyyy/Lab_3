@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://hnuk8gewle3i"]
+
+[ext_resource type="Script" path="res://thing.gd" id="1_u2agm"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_iwrp6"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="thing" type="CSGBox3D" parent="."]
+material = SubResource("StandardMaterial3D_iwrp6")
+script = ExtResource("1_u2agm")
